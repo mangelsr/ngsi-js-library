@@ -152,7 +152,7 @@ cb.updateSubscriptionStatus("5a81e50a3fc4dec59e4ef8dc", "active", headers)
 
 ## Delete Functions.
 
-##Delete Subscription.
+### Delete Subscription.
 The `deleteSubscription()` function is used for removing an subscription stored in the ContextBroker. This function receives as parameter the `id` of the subscription.The next function removes from the ContextBroker the subscription with `id`: `5a93a9103fc4dec59e4ef8ec`. 
 ```js
 cb.deleteSubscription("5a93a9103fc4dec59e4ef8ec")
